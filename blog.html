@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
+<html>
+    <head>
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="this is the desc of my app">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="website" />
+
+        <title>Blog</title>
+
+        <!-- links -->
+
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+        <!-- scripts -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Updated Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Updated Bootstrap JS -->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">Navbar</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section id="header">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                
+                            <img src="/vendor/assets/img/blog.jpg" style="width:100%;height:50vh;object-fit: cover;">
+                                              
+                       </div>
+                    </div>
+                </section>
+                <section id="blogs">
+                    <div class="row author justify-content-center align-items-baseline mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                        <h4 class="mx-2">Author name<span class="mx-3">Feb 14th, 2024</span></h4>
+
+                    </div>
+                    <div class="row justify-content-center">
+                        <p>
+                            Nikola founder Trevor Milton on Friday was convicted by a jury of fraud in a case alleging he lied to investors about the electric vehicle company’s technology.
+    
+                            The jury found Milton guilty on one count of securities fraud and two counts of wire fraud after deliberating for around five hours. Milton was acquitted on an additional count of securities fraud.
+                
+                            During the trial in federal court in Manhattan, prosecutors depicted Milton, 40, as a “con man” who sought to deceive investors about the electric- and hydrogen-powered truck maker’s technology starting in November 2019.
+                
+                            Milton, wearing a blue suit and green tie, shook his head as the jurors confirmed their verdict. His attorney said he will file court papers challenging the verdict.
+                
+                            Milton, of Oakley, Utah, was indicted in July 2021. He left Nikola in September 2020 after a report by short seller Hindenburg Research called the company a “fraud.”
+                
+                            Prosecutors accused Milton of using social media and interviews on television, podcasts and in print to make false and misleading claims about Nikola’s trucks and technology.
+                
+                            They said Milton’s improper statements included that Nikola built an electric- and hydrogen-powered “Badger” pickup from the “ground up,” developed batteries in-house that he knew it was purchasing elsewhere and had early success in creating a “Nikola One” semi-truck he knew did not work.
+                        </p>
+                    </div>
+
+
+                </section>
+               <div class="col-12 mx-5 mb-5 mt-5">
+
+               </div>
+            </div>
+        </main>
+        <footer id="footer" class="footer bg-dark text-white">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>Contact us</h4>
+                            <ul class="footer-links list-unstyled align-items-baseline">
+                                <li>
+                                    <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                                  </svg>info@hello.com
+                                </li>
+                                <li>
+                                    <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                  </svg>0712345678
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h4>About us</h4>
+                            <p class="">
+                               This is a blog site
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-center">
+                                <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503"/>
+                                </svg>Copyright | Blog site
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              var swiper = new Swiper('.slider-container', {
+                slidesPerView: 1,
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+                pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+                },
+                loop: true,
+            
+              });
+            });
+          </script>
+        <script>
+        $( function() {
+            $( "#tabs" ).tabs();
+        } );
+        </script>
+    </body>
+</html>

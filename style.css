@@ -1,3 +1,21 @@
+/**------------------------------------ 
+
+GLOBAL STYLES 
+
+------------------------------------**/
+
+.card{
+  padding-top: 15px;
+  margin-right:10px;
+  margin-top: 10px;
+}
+
+/**------------------------------------ 
+
+FOOTER STYLES 
+
+------------------------------------**/
+
 .footer {
   overflow: hidden;
   background: rgba(var(--color-black-rgb), 0.9);
@@ -47,16 +65,19 @@
   flex: 0 0 50px;
   width: 50px;
   }
-  .footer .footer-links ul {
-    text-align: center;
-    margin: auto;
-    width: 50%;
+  .footer ul {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+    padding-left: 0%;
     }
+    .footer ul li{
+      display: flex;
+  
+      }
   .footer .footer-links li {
     margin-bottom: 10px;
-    text-align: center;
-    margin: auto;
-    width: 50%;
   }
   .footer .footer-links li a {
   color: rgba(var(--color-white-rgb), 0.7);
@@ -91,3 +112,37 @@
   .footer .credits a {
   color: var(--color-white);
   }
+
+/**------------------------------------ 
+
+              HEADER STYLES 
+
+------------------------------------**/
+
+#header .swiper .swiper-wrapper .swiper-slide img{
+  width:100vw;
+}
+#header .swiper .swiper-wrapper .swiper-slide .swiper-slide-wrap {
+  width: 100%;  /* Set a specific width here, e.g., 100% */
+}
+.overlay-text{
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: white; 
+  font-size: 96px;
+  font-family:Eb Garamond;
+  text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.35);
+  font-weight: bold;
+}
+/**------------------------------------ 
+
+              TABS STYLES 
+
+------------------------------------**/
+
+#tabs-1{
+  margin-top: 100px;
+}
